@@ -40,4 +40,10 @@
 - (IBAction)btnRegresarSender:(id)sender {
     [self performSegueWithIdentifier:@"BackToWelcome" sender:self];
 }
+
+- (IBAction)btnMenosTransparencia:(id)sender {
+}
+
+- (IBAction)btnMasTransparencia:(id)sender {
+}
 @end

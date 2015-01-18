@@ -14,5 +14,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *txtEdad;
 
 - (IBAction)btnRegresarSender:(id)sender;
+- (IBAction)btnMenosTransparencia:(id)sender;
+- (IBAction)btnMasTransparencia:(id)sender;
 
 @end
