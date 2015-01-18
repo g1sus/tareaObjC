@@ -9,11 +9,19 @@
 /* Begin PBXBuildFile section */
 		648FAB561A6B48F600D6BA39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 648FAB551A6B48F600D6BA39 /* main.m */; };
 		648FAB591A6B48F600D6BA39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 648FAB581A6B48F600D6BA39 /* AppDelegate.m */; };
-		648FAB5C1A6B48F600D6BA39 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 648FAB5B1A6B48F600D6BA39 /* ViewController.m */; };
+		648FAB5C1A6B48F600D6BA39 /* Welcome.m in Sources */ = {isa = PBXBuildFile; fileRef = 648FAB5B1A6B48F600D6BA39 /* Welcome.m */; };
 		648FAB5F1A6B48F600D6BA39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 648FAB5D1A6B48F600D6BA39 /* Main.storyboard */; };
 		648FAB611A6B48F600D6BA39 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 648FAB601A6B48F600D6BA39 /* Images.xcassets */; };
 		648FAB641A6B48F600D6BA39 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 648FAB621A6B48F600D6BA39 /* LaunchScreen.xib */; };
 		648FAB701A6B48F600D6BA39 /* TareaObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 648FAB6F1A6B48F600D6BA39 /* TareaObjCTests.m */; };
+		648FAB7F1A6B4EC500D6BA39 /* Bart.png in Resources */ = {isa = PBXBuildFile; fileRef = 648FAB7A1A6B4EC500D6BA39 /* Bart.png */; };
+		648FAB801A6B4EC500D6BA39 /* lisa.png in Resources */ = {isa = PBXBuildFile; fileRef = 648FAB7B1A6B4EC500D6BA39 /* lisa.png */; };
+		648FAB811A6B4EC500D6BA39 /* Maggie.png in Resources */ = {isa = PBXBuildFile; fileRef = 648FAB7C1A6B4EC500D6BA39 /* Maggie.png */; };
+		648FAB821A6B4EC500D6BA39 /* marge.png in Resources */ = {isa = PBXBuildFile; fileRef = 648FAB7D1A6B4EC500D6BA39 /* marge.png */; };
+		648FAB831A6B4EC500D6BA39 /* The Simpsons.png in Resources */ = {isa = PBXBuildFile; fileRef = 648FAB7E1A6B4EC500D6BA39 /* The Simpsons.png */; };
+		648FAB861A6B536200D6BA39 /* GlobalVars.m in Sources */ = {isa = PBXBuildFile; fileRef = 648FAB851A6B536200D6BA39 /* GlobalVars.m */; };
+		648FAB891A6B650200D6BA39 /* ShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 648FAB881A6B650200D6BA39 /* ShowView.m */; };
+		648FAB8B1A6B7C8300D6BA39 /* TituloSimpsons.png in Resources */ = {isa = PBXBuildFile; fileRef = 648FAB8A1A6B7C8300D6BA39 /* TituloSimpsons.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +40,24 @@
 		648FAB551A6B48F600D6BA39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		648FAB571A6B48F600D6BA39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		648FAB581A6B48F600D6BA39 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		648FAB5A1A6B48F600D6BA39 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		648FAB5B1A6B48F600D6BA39 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		648FAB5A1A6B48F600D6BA39 /* Welcome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Welcome.h; sourceTree = "<group>"; };
+		648FAB5B1A6B48F600D6BA39 /* Welcome.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Welcome.m; sourceTree = "<group>"; };
 		648FAB5E1A6B48F600D6BA39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		648FAB601A6B48F600D6BA39 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		648FAB631A6B48F600D6BA39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		648FAB691A6B48F600D6BA39 /* TareaObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TareaObjCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		648FAB6E1A6B48F600D6BA39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		648FAB6F1A6B48F600D6BA39 /* TareaObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TareaObjCTests.m; sourceTree = "<group>"; };
+		648FAB7A1A6B4EC500D6BA39 /* Bart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Bart.png; path = TareaObjC/Bart.png; sourceTree = "<group>"; };
+		648FAB7B1A6B4EC500D6BA39 /* lisa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lisa.png; path = TareaObjC/lisa.png; sourceTree = "<group>"; };
+		648FAB7C1A6B4EC500D6BA39 /* Maggie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Maggie.png; path = TareaObjC/Maggie.png; sourceTree = "<group>"; };
+		648FAB7D1A6B4EC500D6BA39 /* marge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = marge.png; path = TareaObjC/marge.png; sourceTree = "<group>"; };
+		648FAB7E1A6B4EC500D6BA39 /* The Simpsons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "The Simpsons.png"; path = "TareaObjC/The Simpsons.png"; sourceTree = "<group>"; };
+		648FAB841A6B536200D6BA39 /* GlobalVars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalVars.h; sourceTree = "<group>"; };
+		648FAB851A6B536200D6BA39 /* GlobalVars.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalVars.m; sourceTree = "<group>"; };
+		648FAB871A6B650200D6BA39 /* ShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowView.h; sourceTree = "<group>"; };
+		648FAB881A6B650200D6BA39 /* ShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowView.m; sourceTree = "<group>"; };
+		648FAB8A1A6B7C8300D6BA39 /* TituloSimpsons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TituloSimpsons.png; path = TareaObjC/TituloSimpsons.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +81,7 @@
 		648FAB471A6B48F600D6BA39 = {
 			isa = PBXGroup;
 			children = (
+				648FAB791A6B4E6900D6BA39 /* Imagenes */,
 				648FAB521A6B48F600D6BA39 /* TareaObjC */,
 				648FAB6C1A6B48F600D6BA39 /* TareaObjCTests */,
 				648FAB511A6B48F600D6BA39 /* Products */,
@@ -83,8 +102,12 @@
 			children = (
 				648FAB571A6B48F600D6BA39 /* AppDelegate.h */,
 				648FAB581A6B48F600D6BA39 /* AppDelegate.m */,
-				648FAB5A1A6B48F600D6BA39 /* ViewController.h */,
-				648FAB5B1A6B48F600D6BA39 /* ViewController.m */,
+				648FAB841A6B536200D6BA39 /* GlobalVars.h */,
+				648FAB851A6B536200D6BA39 /* GlobalVars.m */,
+				648FAB5A1A6B48F600D6BA39 /* Welcome.h */,
+				648FAB5B1A6B48F600D6BA39 /* Welcome.m */,
+				648FAB871A6B650200D6BA39 /* ShowView.h */,
+				648FAB881A6B650200D6BA39 /* ShowView.m */,
 				648FAB5D1A6B48F600D6BA39 /* Main.storyboard */,
 				648FAB601A6B48F600D6BA39 /* Images.xcassets */,
 				648FAB621A6B48F600D6BA39 /* LaunchScreen.xib */,
@@ -117,6 +140,19 @@
 				648FAB6E1A6B48F600D6BA39 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		648FAB791A6B4E6900D6BA39 /* Imagenes */ = {
+			isa = PBXGroup;
+			children = (
+				648FAB8A1A6B7C8300D6BA39 /* TituloSimpsons.png */,
+				648FAB7A1A6B4EC500D6BA39 /* Bart.png */,
+				648FAB7B1A6B4EC500D6BA39 /* lisa.png */,
+				648FAB7C1A6B4EC500D6BA39 /* Maggie.png */,
+				648FAB7D1A6B4EC500D6BA39 /* marge.png */,
+				648FAB7E1A6B4EC500D6BA39 /* The Simpsons.png */,
+			);
+			name = Imagenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +235,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				648FAB831A6B4EC500D6BA39 /* The Simpsons.png in Resources */,
+				648FAB7F1A6B4EC500D6BA39 /* Bart.png in Resources */,
+				648FAB821A6B4EC500D6BA39 /* marge.png in Resources */,
+				648FAB801A6B4EC500D6BA39 /* lisa.png in Resources */,
 				648FAB5F1A6B48F600D6BA39 /* Main.storyboard in Resources */,
 				648FAB641A6B48F600D6BA39 /* LaunchScreen.xib in Resources */,
+				648FAB8B1A6B7C8300D6BA39 /* TituloSimpsons.png in Resources */,
 				648FAB611A6B48F600D6BA39 /* Images.xcassets in Resources */,
+				648FAB811A6B4EC500D6BA39 /* Maggie.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +261,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				648FAB5C1A6B48F600D6BA39 /* ViewController.m in Sources */,
+				648FAB861A6B536200D6BA39 /* GlobalVars.m in Sources */,
+				648FAB5C1A6B48F600D6BA39 /* Welcome.m in Sources */,
 				648FAB591A6B48F600D6BA39 /* AppDelegate.m in Sources */,
+				648FAB891A6B650200D6BA39 /* ShowView.m in Sources */,
 				648FAB561A6B48F600D6BA39 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
