@@ -22,6 +22,16 @@
     
     image = 0;
     imageArray = [[NSMutableArray alloc] initWithObjects:@"The Simpsons.png", @"Bart.png", @"lisa.png", @"Maggie.png", @"marge.png",nil];
+    nombreArray = [[NSMutableArray alloc] initWithObjects:@"Familia", @"Bart Simpson", @"Lisa Simpson", @"Maggie Simpson", @"Marge Simpson",nil];
+    edadArray = [[NSMutableArray alloc] initWithObjects:@"No Aplica", @"12", @"9", @"2", @"35",nil];
+    
+    longitudArray = (int) imageArray.count;
+    globalArray = [NSMutableArray arrayWithObjects:
+                   imageArray,
+                   nombreArray,
+                   edadArray,
+                   nil];
+    
     
     self.imgImage.image = [UIImage imageNamed:imageArray[image]];
 }

@@ -18,6 +18,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    transparency =1.0;
+    self.txtNombre.text = globalArray [1][image];
+    self.txtEdad.text = globalArray [2] [image];
     self.imgSingle.image = [UIImage imageNamed:imageArray[image]];
     
 }
@@ -42,8 +46,13 @@
 }
 
 - (IBAction)btnMenosTransparencia:(id)sender {
+    transparency = transparency - 0.2;
+    [self.imgSingle setAlpha:transparency];
+    
 }
 
 - (IBAction)btnMasTransparencia:(id)sender {
+    transparency = transparency + 0.2;
+    [self.imgSingle setAlpha:transparency];
 }
 @end
