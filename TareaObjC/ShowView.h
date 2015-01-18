@@ -16,5 +16,6 @@
 - (IBAction)btnRegresarSender:(id)sender;
 - (IBAction)btnMenosTransparencia:(id)sender;
 - (IBAction)btnMasTransparencia:(id)sender;
+- (IBAction)btnEditarSender:(id)sender;
 
 @end

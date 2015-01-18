@@ -22,6 +22,7 @@
 		648FAB861A6B536200D6BA39 /* GlobalVars.m in Sources */ = {isa = PBXBuildFile; fileRef = 648FAB851A6B536200D6BA39 /* GlobalVars.m */; };
 		648FAB891A6B650200D6BA39 /* ShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 648FAB881A6B650200D6BA39 /* ShowView.m */; };
 		648FAB8B1A6B7C8300D6BA39 /* TituloSimpsons.png in Resources */ = {isa = PBXBuildFile; fileRef = 648FAB8A1A6B7C8300D6BA39 /* TituloSimpsons.png */; };
+		64B4ED231A6BA12A003051C7 /* EditView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B4ED221A6BA12A003051C7 /* EditView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		648FAB871A6B650200D6BA39 /* ShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowView.h; sourceTree = "<group>"; };
 		648FAB881A6B650200D6BA39 /* ShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowView.m; sourceTree = "<group>"; };
 		648FAB8A1A6B7C8300D6BA39 /* TituloSimpsons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TituloSimpsons.png; path = TareaObjC/TituloSimpsons.png; sourceTree = "<group>"; };
+		64B4ED211A6BA12A003051C7 /* EditView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditView.h; sourceTree = "<group>"; };
+		64B4ED221A6BA12A003051C7 /* EditView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +111,8 @@
 				648FAB5B1A6B48F600D6BA39 /* Welcome.m */,
 				648FAB871A6B650200D6BA39 /* ShowView.h */,
 				648FAB881A6B650200D6BA39 /* ShowView.m */,
+				64B4ED211A6BA12A003051C7 /* EditView.h */,
+				64B4ED221A6BA12A003051C7 /* EditView.m */,
 				648FAB5D1A6B48F600D6BA39 /* Main.storyboard */,
 				648FAB601A6B48F600D6BA39 /* Images.xcassets */,
 				648FAB621A6B48F600D6BA39 /* LaunchScreen.xib */,
@@ -265,6 +270,7 @@
 				648FAB5C1A6B48F600D6BA39 /* Welcome.m in Sources */,
 				648FAB591A6B48F600D6BA39 /* AppDelegate.m in Sources */,
 				648FAB891A6B650200D6BA39 /* ShowView.m in Sources */,
+				64B4ED231A6BA12A003051C7 /* EditView.m in Sources */,
 				648FAB561A6B48F600D6BA39 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +462,7 @@
 				648FAB751A6B48F600D6BA39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		648FAB761A6B48F600D6BA39 /* Build configuration list for PBXNativeTarget "TareaObjCTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +471,7 @@
 				648FAB781A6B48F600D6BA39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

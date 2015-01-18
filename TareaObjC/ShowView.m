@@ -55,4 +55,9 @@
     transparency = transparency + 0.2;
     [self.imgSingle setAlpha:transparency];
 }
+
+- (IBAction)btnEditarSender:(id)sender {
+    [self performSegueWithIdentifier:@"GoToEdit" sender:self];
+    
+}
 @end
